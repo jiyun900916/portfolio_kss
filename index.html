@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KS벽지</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/KSwallpaper.css">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>      
+    <div id="wrap">
+        <div class="bg-square"></div>
+        <header class="clear">
+            <div class="inner">
+                <div class="top-Left clear">
+                    <h1 class="header-logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="KS벽지">
+                        </a>
+                    </h1>
+                    <ul class="lang-wrap clear">
+                        <li><a href="#" class="on"> KOR </a></li>
+                        <li><a href="#" class="en"> ENG </a></li>
+                    </ul>
+                </div>
+                <nav class="gnb">
+                    <ul class="menu clear">
+                        <li><a href="#">케이에스더블유</a>
+                            <ul class="sub-menu clear">
+                                <li><a href="#">계열사</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">회사소개</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">CEO 인사말</a></li>
+                                <li><a href="#">LOGO 소개</a></li>
+                                <li><a href="#">채용정보</a></li>
+                                <li><a href="#">위치안내</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">제품소개</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">제품소개</a></li>
+                                <li><a href="#">실크 브랜드</a></li>
+                                <li><a href="#">합지브랜드</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">홍보센터</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">인증 및 수상</a></li>
+                                <li><a href="#">뉴스 및 언론홍보</a></li>
+                                <li><a href="#">SNS</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">인테리어</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">시공사례</a></li>
+                                <li><a href="#">인테리어<br>스타일링</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">고객센터</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">디자인상담</a></li>
+                                <li><a href="#">1:1문의</a></li>
+                                <li><a href="#">대리점 찾기</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- //gnb -->
+                
+                
+                <div class="D-flex-item clear">
+                    <a href="#" class="gnb-wish-btn" title="위시리스트">
+                        <i class="xi-heart-o"></i>
+                        <span class="gnb-wish-cout">0</span>
+                    </a>
+                    <div class="searchArea">
+                        <input type="text" class="input_30" title="검색어 입력" name="keyword" placeholder="제품번호를 입력해주세요" required>
+                        <a href="#" class="btn-seach"><i class="xi-search"></i></a>
+                    </div>
+                </div>
+
+                <!-- E: navigation -->
+                <!-- <button class="nav-mobile-bg" type="button"><i class="xi-bars"></i></button> -->
+            </div>
+        </header>
+        <div class="bgGnb"></div>
+        <div class="menuBg"></div>
+        <!-- //header-wrap -->
+
+        <section id="swiper-area clear">
+            <div class="inner">
+            <div class="cont-sw cont01 clear" class="on">
+                <div class="sw-txt">
+                    <h2 class="title">이룸</h2>
+                    <p class="text">나만의 공간을 이루다</p>
+                    <p class="txt">#프리미엄 #친환경 #실크벽지 #고급패턴</p>
+                </div>
+                <div class="sw-img">
+                    <figure><img src="img/swiper_img_bx01.jpg" alt="이룸"></figure>
+                </div>
+            </div>
+           <!--  <div class="cont-sw cont02 clear" class="hide">
+                <div class="sw-txt">
+                    <h2 class="title">더뷰</h2>
+                    <p class="text">벽지, 그이상의 <br>
+                                    공간을 보여주다</p>
+                    <p class="txt">#프리미엄 #친환경 #실크벽지 #감각적인디자인</p>
+                </div>
+                <div class="sw-img">
+                    <figure><img src="img/swiper_img_bx02.jpg" alt="더뷰"></figure>
+                </div>
+            </div>
+            <div class="cont-sw cont03 clear" class="hide">
+                <div class="sw-txt">
+                    <h2 class="title">벨루체</h2>
+                    <p class="text">당신이 꿈꾸는 <br>
+                                    라이프스타일이 담긴 공간</p>
+                    <p class="txt">#친환경 #합지벽지 #모던디자인 #심플한컬러</p>
+                </div>
+                <div class="sw-img">
+                    <figure><img src="img/swiper_img_bx03.jpg" alt="벨루체"></figure>
+                </div>
+            </div>
+            <div class="cont-sw cont04 clear"class="hide">
+                <div class="sw-txt">
+                    <h2 class="title">더홈</h2>
+                    <p class="text">우리집에 꼭 맞는 스타일링</p>
+                    <p class="txt">#소폭합지 #합리적가격 #깔끔한디자인</p>
+                </div>
+                <div class="sw-img">
+                    <figure><img src="img/swiper_img_bx04.jpg" alt="더홈"></figure>
+                </div>
+            </div> -->
+            <!-- //cont-sw.cont04 -->
+
+            <div class="sw-sideR">
+                <p class="vertical-text">KS WALLCOVERINGS COLLECTION</p>
+                <div class="swbtn-wrap">
+                    <button type="button" class="swiper-button swiper-button--prev" tabindex="0" role="button" aria-label="previouse slide">
+                        <i class="xi-long-arrow-up"></i>
+                    </button>
+                    <div class="swiper-pagination-fraction">
+                        <p class="swiper-pagination-item item1">
+                            <span>0</span>
+                            <span class="swiper-pagination-current">2</span>
+                        </p>
+                        <span class="sw-bar">-</span>
+                        <p class="swiper-pagination-item">
+                            
+                            <span>0</span>
+                            <span class="swiper-pagination-total">4</span>
+                        </p>
+                    </div>
+                    <button type="button" class="swiper-button swiper-button--next" tabindex="0" role="button" aria-label="next slide">
+                        <i class="xi-long-arrow-down"></i>
+                    </button>
+                </div>                
+            </div>
+            </div>
+        </section>
+        <!-- //swiper-area -->
+
+        <section id="brand-area">
+            <div class="inner">
+            <h2>COLLECTION</h2>
+            <div class="brand-category">
+                <ul class="clear">
+                    <li>
+                        <a href="#" class="main-cat cat01 on">실크 브랜드</a>
+                        <ul class="category-tap clear">
+                            <li>
+                                <div class="cat-inner cat-inner01">
+                                    <a href="#">더뷰 The View</a>
+                                    <a href="#">이룸 E Room</a>
+                                    <a href="#">방염</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="main-cat cat02">합지 브랜드</a>
+                        <ul class="category-tap">
+                            <li>
+                                <div class="cat-inner cat-inner02">
+                                <a href="#">벨루체 VELUCE</a>
+                                <a href="#">더홈 The Home</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+           <!--  /* -------//brand-category------- */ -->
+           
+            <div class="brand-contents">
+                <div class="SilkBrand-inner">
+                    <div class="cont-area TheView">
+                        <div class="cont-imgL">
+                            <img src="img/SilkBrand_TheView01.jpg" alt="The View 01" class="on">
+                           <!--  <img src="img/SilkBrand_TheView02.jpg" alt="The View 01" class="hide">
+                            <img src="img/SilkBrand_TheView03.jpg" alt="The View 01" class="hide">
+                            <img src="img/SilkBrand_TheView04.jpg" alt="The View 01" class="hide">
+                            <img src="img/SilkBrand_TheView05.jpg" alt="The View 01" class="hide">
+                            <img src="img/SilkBrand_TheView06.jpg" alt="The View 01" class="hide"> -->
+                        </div>
+                        <div class="cont-textR">
+                            <p class="title">더뷰 The View</p>
+                            <p class="title-sub">"벽지, 그 이상의 공간을 보다"</p>
+                            <p class="txt clear">
+                                더뷰는 스타일리시한 컬러와 패턴 디자인으로<br>
+                                트렌디함을 갖춘 고급 실크벽지 컬렉션입니다.<br>
+                                <br>
+                                내 공간을 특별하게 만드는 한 끗 차이.<br>
+                                더뷰가 수놓은 감각적인 디자인으로<br>
+                                내가 가장 좋아하는 공간을 만들어보세요.
+                            </p>
+                            <ul class="product clear">
+                                <li>
+                                    <a href="#" class="goods01 goods">
+                                        <figuer>
+                                            <img src="img/product01_3014-1.jpg" alt="제품번호 3014-1">
+                                        </figuer>
+                                        <p class="goods_num">3014-1</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="goods02 goods">
+                                        <figure>
+                                            <img src="img/product02_3035-9.jpg" alt="제품번호 3035-9">
+                                        </figure>
+                                        <p class="goods_num ">3035-9</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="goods03 goods">
+                                        <figure>
+                                            <img src="img/product03_3031-3.jpg" alt="제품번호 3035-9">
+                                        </figure>
+                                        <p class="goods_num">3031-3</p>
+                                    </a>
+                                </li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                  <!-- 
+                        <div class="cont-area E-Room hide">
+                        <div class="cont-imgL">
+                            <img src="img/SilkBrand_E-Room01.jpg" alt="E-Room 01" class="hide">
+                            <img src="img/SilkBrand_E-Room02.jpg" alt="E-Room 02" class="hide">
+                            <img src="img/SilkBrand_E-Room03.jpg" alt="E-Room 03" class="hide">
+                            <img src="img/SilkBrand_E-Room04.jpg" alt="E-Room 04" class="hide">
+                            <img src="img/SilkBrand_E-Room05.jpg" alt="E-Room 05" class="hide">
+                            <img src="img/SilkBrand_E-Room06.jpg" alt="E-Room 06" class="hide">
+                        </div>
+                        <div class="cont-text">
+                            <p class="title">이룸 E Room</p>
+                            <p class="title-sub">"나만의 공간을 이루다"</p>
+                            <p class="txt">
+                                이룸은 다양한 소재감과 세련된 컬러를 활용해,<br>
+                                풍성한 디자인과 고급스러운 컬러의 프리미엄 실크 벽지 컬렉션입니다.<br>
+                                <br>
+                                이룸으로 탄생하는 고급스러운 무드.<br>
+                                프리미엄 벽지의 우아한 멋스러움으로<br>
+                                한결 더 특별해진 당신만의 공간을 이뤄 나가세요.
+                            </p>
+                            <ul class="product">
+                                <li><a href="#"><img src="img/product04_3009-23.jpg" alt="제품번호 3009-23">3009-23</a></li>
+                                <li><a href="#"><img src="img/product05_30011-1.jpg" alt="제품번호 30011-1">30011-1</a></li>
+                                <li><a href="#"><img src="img/product06_3009-31.jpg" alt="제품번호 3009-31">3009-31</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cont-area BangYeom hide">
+                        <div class="cont-imgL">
+                            <img src="img/SilkBrand_FR01.jpg" alt="BangYeom 01" class="hide">
+                            <img src="img/SilkBrand_FR02.jpg" alt="BangYeom 02" class="hide">
+                            <img src="img/SilkBrand_FR03.jpg" alt="BangYeom 03" class="hide">
+                            <img src="img/SilkBrand_FR04.jpg" alt="BangYeom 04" class="hide">
+                            <img src="img/SilkBrand_FR05.jpg" alt="BangYeom 05" class="hide">
+                        </div>
+                        <div class="cont-textR">
+                            <p class="title">방염</p>
+                            <p class="title-sub">"안전을 가장 먼저 생각한 친환경 방염벽지"</p>
+                            <p class="txt">
+                                방염 벽지는 뛰어난 안정성은 물론, 친환경 품질인증으로 건강까지 세심하게<br>
+                                배려한 실크 벽지 컬렉션입니다.<br>
+                                <br>
+                                국가 안전기준 제품으로 인증된 친환경 방염 벽지.<br>
+                                기능을 겸비한 트랜디한 컬러의 제품으로<br>
+                                당신에게 안전하고 아름다운 공간을 선사합니다.
+                            </p>
+                            <ul class="product">
+                                <li><a href="#"><img src="img/product01_3014-1.jpg" alt="제품번호 3014-1">3014-1</a></li>
+                                <li><a href="#"><img src="img/product02_3035-9.jpg" alt="제품번호 3035-9">3035-9</a></li>
+                                <li><a href="#"><img src="img/product03_3031-3.jpg" alt="제품번호 3035-9">3031-3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-area VELUCHE hide">
+                    <div class="cont-imgL">
+                        <img src="img/PlyWood-VELUCHE01.jpg" alt="VELUCHE 01" class="on">
+                        <img src="img/PlyWood-VELUCHE02.jpg" alt="VELUCHE 02" class="hide">
+                        <img src="img/PlyWood-VELUCHE03.jpg" alt="VELUCHE 03" class="hide">
+                        <img src="img/PlyWood-VELUCHE04.jpg" alt="VELUCHE 04" class="hide">
+                        <img src="img/PlyWood-VELUCHE05.jpg" alt="VELUCHE 05" class="hide">
+                    </div>
+                    <div class="cont-textR">
+                        <p class="title">벨루체 VELUCHE</p>
+                        <p class="title-sub">"나만의 라이프 스타일이 담긴 공간"</p>
+                        <p class="txt">
+                            벨루체는 깔끔한 컬러와 모던한 디자인, 풍부한 텍스쳐감까지 겸비한 친환경<br> 
+                            합지벽지 컬렉션입니다.<br>
+                            <br>
+                            벨루체가 제안하는 합리적인 라이프스타일.<br>
+                            편안한 내추럴부터 세련된 모던함까지<br>
+                            벨루체만의 은은하고 따뜻한 감성을 느껴보세요.
+                        </p>
+                        <ul class="product">
+                            <li><a href="#"><img src="img/product04_3009-23.jpg" alt="제품번호 3009-23">3009-23</a></li>
+                            <li><a href="#"><img src="img/product05_30011-1.jpg" alt="제품번호 30011-1">30011-1</a></li>
+                            <li><a href="#"><img src="img/product06_3009-31.jpg" alt="제품번호 3009-31">3009-31</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cont-area The-Home hide">
+                    <div class="cont-imgL">
+                        <img src="img/PlyWood-TheHome01.jpg" alt="The-Hoem 01" class="hide">
+                        <img src="img/PlyWood-TheHome02.jpg" alt="The-Hoem 02" class="hide">
+                        <img src="img/PlyWood-TheHome03.jpg" alt="The-Hoem 03" class="hide">
+                        <img src="img/PlyWood-TheHome04.jpg" alt="The-Hoem 04" class="hide">
+                        <img src="img/PlyWood-TheHome05.jpg" alt="The-Hoem 05" class="hide">
+                    </div>
+                    <div class="cont-textR">
+                        <p class="title">더홈 The Home</p>
+                        <p class="title-sub">"나만의 라이프 스타일이 담긴 공간"</p>
+                        <p class="txt">
+                            더홈은 어떠한 공간이던 화사하게 밝혀주는 컬러와 디자인의 소폭 합지벽지<br> 
+                            컬렉션입니다.<br>
+                            <br>
+                            더홈과 함께 완성하는 나만의 인테리어.<br>
+                            생기를 불어넣는 산뜻한 디자인으로<br>
+                            당신의 일상이 더욱 특별해지는 공간을 만들어보세요.
+                        </p>
+                        <ul class="product">
+                            <li><a href="#"><img src="img/product04_3009-23.jpg" alt="제품번호 3009-23">3009-23</a></li>
+                            <li><a href="#"><img src="img/product05_30011-1.jpg" alt="제품번호 30011-1">30011-1</a></li>
+                            <li><a href="#"><img src="img/product06_3009-31.jpg" alt="제품번호 3009-31">3009-31</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="brand-in-butten">
+                <div class="swiper-button-next">
+                </div> -->
+                <span class="btn_more-product btn-more"><a href="#"><i class="xi-long-arrow-right"></i>제품 더보기</a></span>
+            </div>
+            </div>
+        </section> 
+         <!-- //brand-area -->
+    <section id="news-area">
+        <div class="inner">
+            <div class="news_top-title">
+                <h2>NEWS</h2>
+                <p class="txt">KS벽지의 새로운 소식을 전합니다</p>
+            </div>
+            <span class="btn_more-news btn-more"><a href="#"><i class="xi-long-arrow-right"></i>뉴스 더보기</a></span>
+            <div class="news_Area clear">
+                <div class="sub-newsL">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <ul class="sb-article">
+                                    <li class="sb-newsImg"><img src="img/news_sub04s.jpg" alt="벨라필콘서트콰이어 제10회 정기연주회 후원"></li>
+                                    <li  class="sb-newsText-box">
+                                        <p class="sb-newsTitle cleer">벨라필콘서트콰이어 제10회 정기연주회 후원</p>
+                                        <p class="sb-newsTxt">
+                                            벨라필콘서트콰이어는 예술지향과 소통을 모토로 2014년 12월 고양시를 기반으로 창단된 연주 중심의 아마추어 혼성합창단으로
+                                            지휘는 서울대 성악과, 독일 슈튜트가르트 국립음대 디플롬, 에센 폴크방 국립음대 석사를 졸업한 황유순 지휘자가 맡고있다.
+                
+                                            전국 아마추어 합창경연대회에서 은상 및 경기도 합창음악제에서는 대상을 수상한 경력이 있는 수준높은 합창단으로
+                
+                                            23년 6월 10일 정기연주회(정전 70주년 민군연합 진혼 연주회) 모차르트 레퀴엠을 통해 음악적 재능과 열정을 지역사회에 환원함에 있어
+                
+                                            케이에스더블유는 기업후원을 통해 문화와 예술을 사랑하는 관객들과 함께할 수 있는 기회를 갖고자 한다.</p>
+                                            <time datetime="2023-06-09">2023.06.09</time>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ul class="sb-article clear">
+                                    <li class="sb-newsImg"><img src="img/news_sub01s.png" alt="[신제품출시] E-ROOM"></li>
+                                    <li class="sb-newsText-box">
+                                        <p class="sb-newsTitle clear">[신제품출시] E-ROOM</p>
+                                        <p class="sb-newsTxt">  친환경 벽지 기업 ‘KS벽지’가 프리미엄 실크벽지 ‘2023 이룸’을 새롭게 출시했다.
+                                            ’2023 이룸’의 새로운 테마 “Love harmony”는 일상에서 건강하고 안정적인 루틴을 보낼 수 있으며
+                
+                                            나 자신을 돌아보는 시간을 보내기도 하는 회복의 공간이라는 의미를 담았다.
+                
+                                             ‘2023 이룸’은 코로나19의 장기화와 정보 과잉 노출 등 일상에서 겪는 스트레스로 지친 현대인들의 일상을 치유하고,
+                
+                                            다가오는 포스트 코로나 시대에 원활한 소통과 건강한 삶의 균형을 이루기 위한 공간 솔루션을 제안하는 실크 벽지 컬렉션이다.
+                
+                
+                
+                                            또한 ‘2023 이룸’은 트렌디한 포인트벽지부터 모던한 무지 제품까지 공간의 장점을 살려주는 다양한 패턴으로 구성된 컬렉션으로,
+                
+                                            많은 소비자들의 사랑을 받았던 지난 이룸에 이어 한층 더 세련된 컬러와 디자인이 적용되었다.
+                
+                                            포인트 벽지는 몰딩, 그래픽, 플라워 패턴 등 다채롭고 세련된 디자인과 컬러감이 느껴지도록 디자인되었고,
+                
+                                            무지 벽지는 인테리어 트렌드를 반영하여 도톰한 직물 텍스쳐와 네추럴한 컬러 계열이 강조되었다.
+                
+                                            이렇듯 ‘2023 이룸’은 아래 4가지 컨셉으로 집과 상업공간 등 어느 장소에나 감각적이고 안정적인 힐링 공간을 만들어주는 제품을 선보였으며,
+                
+                                            색다르고 다채로운 공간을 선사한다.</p>
+                                            <time datetime="2023-01-06">2023.01.06</time>
+                                    </li>
+                
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ul class="sb-article clear">
+                                    <li class="sb-newsImg"><img src="img/news_sub02s.png" alt="[신제품출시] E-ROOM"></li>
+                                    <li class="sb-newsText-box">
+                                        <p class="sb-newsTitle clear">벽지 제조기업 KS더블유, 천만불 수출의 탑 수상</p>
+                                        <p class="sb-newsTxt">
+                                        벽지 제조기업 케이에스더블유(KS더블유)는 제 59회 무역의날 기념식에서 '천만불 수출의 탑' 을 수상했다고 5일 밝혔다.
+                                        무역의 날은 1년간의 수출 실적을 기준으로 해외시장 개척과 수출 증대에 기여한 기업을 시상하는 행사로 산업통상자원부가 주관하고 한국무역협회가 주최한다.
+                                        케이에스더블유는 지난해 KS벽지와 제일벽지가 합병해 설립됐으며 품질과 디자인을 바탕으로 러시아와 사우디, 태국 등 전 세계 20여 개 국가에서 수출 성장세를 기록하고 있다.
+                                        박식순 KS더블유 회장은 "한발 앞선 창의적인 디자인과 경쟁력 있는 제품으로 국·내외 시장을 이끌어 갈 것"이라고 말했다.
+                                    </p>
+                                    <time datetime="2023-01-03">2023.01.03</time>
+                                </li>
+                                </ul>
+                            </a>
+                        </li>
+                
+                    </ul>
+                </div>
+                <div class="main-newsR">
+                    <figure></figure>
+                    <p class="m-newsTitle">KS벽지, 특판 신제품 데코리어(DECORIOR) 출시</p>
+                    <p class="m-newsTxt">
+                        케이에스더블유의 친환경 벽지 기업 KS벽지가
+                        건설사 특판 전문 실크벽지인 데코리어(DECORIOR)의 세 번째 컬렉션 ‘데코리어3’을 출시했다고 밝혔다.
+                        2023년 신제품 벽지인 ‘데코리어3’은
+                        ‘BREATHES LIFE INTO SPACE’라는 컨셉트로 현재 모델하우스 인테리어 트랜드를 반영하여
+                        각각의 라이프스타일에 자연스럽게 어울리는 내추럴 무드의 베이스 제품들로 구성되어 있다.
+                
+                        이 ‘데코리어3’은 패브릭, 페인트, 회벽 디자인을 중심으로 다양한 텍스쳐와 세분화된 컬러감으로
+                        소비자들의 니즈를 반영했으며, 전체적으로 모던하면서도 내추럴한 분위기의 제품 가운데,
+                        뉴트럴한 톤의 베이스 제품뿐만 아니라 드레스, 팬트리 등 용도에 적합한 포인트 컬러 또한 균형 있게 구성되어
+                        취향과 라이프스타일에 충족되는 다양한 공간에 적용 가능한 제품이다.
+                        한편, KS그룹(회장 박식순)은 KS벽지, 제일벽지, 코스모스벽지를 인수하여
+                        케이에스더블유에 흡수합병했KS벽지 관계자는 “내추럴 무드를 충족시켜주는 다양한 페브릭 질감의 벽지와, 상공간 트랜드 무드인 유럽 미장 및 회벽 등
+                        다양한 벽 마감재의 수요를 충족시켜 주고자 기획된 제품이다”라고 전했다.
+                    </p>
+                    <time datetime="2023-06-26">2023.06.26</time>
+                </div>
+            </div>
+        </div>
+        <div class="bgNews"></div>
+        </section> 
+        <!-- //news-area -->
+        
+        <section id="sns-area">
+            <div class="inner">
+            <h2>SNS</h2>
+            <p class="txt">KS벽지의 더 많은 소식을 SNS로 만나보세요</p>
+            <div class="sns-contsArea clear">
+            <span class="sns-btnArea clear">
+                <img src="img/sns-icon.jpg" alt="KS로고">
+                <span class="logo-txts">kswallcoverings</span>
+                <a href="#" class="sns-btn">팔로우</a>
+            </span>
+            <div class="sns-contsBox clear">
+                <div class="sns-Top sb-B clear">
+                    <div class="s-cont01 snsT sns">
+                        <img src="img/sns_cont01.jpg" alt="sns contens 1">
+                    </div>
+                    <div class="s-cont02 snsT sns">
+                        <img src="img/sns_cont02.jpg" alt="sns contens 2">
+                    </div>
+                    <div class="s-cont03 snsT sns">
+                        <img src="img/sns_cont03.jpg" alt="sns contens 3">
+                    </div>
+                    <div class="s-cont04 snsT sns">
+                        <img src="img/sns_cont04.jpg" alt="sns contens 4">
+                    </div> 
+                </div>
+                <div class="sns-Bottom sb-B clear">
+                    <div class="s-cont05 snsB sns">
+                        <img src="img/sns_cont05.jpg" alt="sns contens 5">
+                    </div>
+                    <div class="s-cont06 snsB sns">
+                        <img src="img/sns_cont06.jpg" alt="sns contens 6">
+                    </div>
+                    <div class="s-cont07 snsB sns">
+                        <img src="img/sns_cont07.jpg" alt="sns contens 7">
+                    </div>
+                    <div class="s-cont08 snsB sns">
+                        <img src="img/sns_cont08.jpg" alt="sns contens 8">
+                    </div>
+            </div>
+            </div>
+        </div>        
+        </div>
+    </section>
+        <!-- //sns-area -->
+        
+    <footer>
+        <div class="inner clear">
+            <div class="logo"><img src="img/logo-footer.png" alt="ks벽지"></div>
+            <div class="txt-box clear">
+                <ul clear>
+                    <li><a href="#">개인정보처리방침</a></li> <li class="
+                    bar">|</li> 
+                    <li><a href="#">이메일 무단 수집거부</a></li> <li class="
+                    bar">|</li>
+                    <li><a href="#">이용약관</a></li>
+                </ul>
+                <p class="clear"><span>대표자 : 박식순</span> | <span>사업자등록번호 : 365-85-01709</span></p>
+                <p><span>주소 : 경기도 이천시 장호원읍 서동대로 8798-50</span></p>
+                <p><span>대표번호 : 031-642-6111</span></p>
+                <p>&copy;2022 KSWALLCOVERINGS ALL Rights Reserved. Created by masstige</p>
+            </div>
+
+            <div class="family-site">
+                <button>패밀리 사이트 <i class="xi-plus-min"></i></button>
+            </div>
+        </div>
+    </footer>
+    
+        <!-- //footer-area -->
+    </div>
+
+</body>
+</html>
